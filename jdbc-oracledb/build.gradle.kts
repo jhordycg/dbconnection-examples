@@ -7,10 +7,11 @@ plugins {
 	kotlin("plugin.spring") version "1.4.30"
 }
 
+
+springBoot.mainClass.set("dev.jhordycg.dbconnection_examples.DboraConnectionsApplicationKt")
 group = "dev.jhordycg"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
-
 repositories {
 	mavenCentral()
 }
