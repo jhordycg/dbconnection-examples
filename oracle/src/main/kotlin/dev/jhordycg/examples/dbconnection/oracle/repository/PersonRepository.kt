@@ -1,6 +1,6 @@
-package dev.jhordycg.dbconnection_examples.repository
+package dev.jhordycg.examples.dbconnection.oracle.repository
 
-import dev.jhordycg.dbconnection_examples.entity.Person
+import dev.jhordycg.examples.dbconnection.oracle.entity.Person
 import org.springframework.data.repository.CrudRepository
 
 interface PersonRepository : CrudRepository<Person, Long> {

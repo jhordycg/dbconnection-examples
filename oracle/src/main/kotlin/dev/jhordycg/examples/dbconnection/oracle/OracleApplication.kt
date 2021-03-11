@@ -1,11 +1,12 @@
-package dev.jhordycg.dbconnection_examples
+package dev.jhordycg.examples.dbconnection.oracle
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DboraConnectionsApplication
+class OracleApplication
 
 fun main(args: Array<String>) {
-    runApplication<DboraConnectionsApplication>(*args)
+    runApplication<OracleApplication>(*args)
 }
+

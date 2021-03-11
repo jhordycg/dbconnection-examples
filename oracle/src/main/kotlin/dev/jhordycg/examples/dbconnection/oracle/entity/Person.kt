@@ -1,4 +1,4 @@
-package dev.jhordycg.dbconnection_examples.entity
+package dev.jhordycg.examples.dbconnection.oracle.entity
 
 import javax.persistence.*
 

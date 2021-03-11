@@ -1,7 +1,7 @@
-package dev.jhordycg.dbconnection_examples.controller
+package dev.jhordycg.examples.dbconnection.oracle.controller
 
-import dev.jhordycg.dbconnection_examples.entity.Person
-import dev.jhordycg.dbconnection_examples.repository.PersonRepository
+import dev.jhordycg.examples.dbconnection.oracle.entity.Person
+import dev.jhordycg.examples.dbconnection.oracle.repository.PersonRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.transaction.annotation.Transactional
