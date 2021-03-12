@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -Dspring.profiles.active=heroku -Dspring.datasource.password=$ADB_PASSWORD -Doracle.net.tns_admin=./oracle/src/main/resources/wallet/ -jar build/libs/oracle.jar
