@@ -1,8 +1,10 @@
+#DEFAULT
+
 spring:
   datasource:
-    url: "jdbc:oracle:thin:@connectiontest_high?TNS_ADMIN=/home/jhordycg/wallet"
+    url: "jdbc:oracle:thin:@connectiontest_high?TNS_ADMIN=/home/jhordycg/wallets"
     username: "ADMIN"
-    password: "DBVEbrVykZ2e7cr"
+    password: "<password>"
     driver-class-name: "oracle.jdbc.OracleDriver"
   jpa:
     hibernate:

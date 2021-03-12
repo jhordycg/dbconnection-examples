@@ -1,0 +1,5 @@
+#HEROKU
+
+spring:
+  datasource:
+    url: "jdbc:oracle:thin:@connectiontest_high"
